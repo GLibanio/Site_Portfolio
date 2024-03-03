@@ -1,0 +1,153 @@
+/* Estilos para tela grande */
+@media screen and (min-width: 768px) {
+    body{
+        background-image: url("BG.jpg");
+    }
+    img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%; 
+        margin-top: 7%;
+        margin-left: 43%;
+    }
+
+    h2{
+        text-align: center;
+        color: blue;
+    }
+
+    h4{
+        text-align: center;
+        color: white;
+    }
+
+    p{
+        text-align: center;
+        color: white;
+    }
+
+    /* Estilos para o cabeçalho */
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000; /* Garante que o cabeçalho esteja acima de outros elementos */
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 20px;
+    }
+
+    header nav a {
+        color: #fff;
+        text-decoration: none;
+        margin-right: 20px;
+        margin-left: 20%;
+    }
+    
+    /* Estilos para as seções de conteúdo */
+    section {
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.7);
+        margin: 20px;
+        border-radius: 10px;
+        
+    }
+
+    footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 2rem;
+        background-color: gray;
+    }
+
+
+    footer li {
+        display: inline-block;
+        margin: 0 10px;
+        margin-left: 40%;
+    }
+
+
+    footer a {
+        padding: 10px 20px;
+        font-size: 16px;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    body{
+        background-image: url("BG.jpg");
+    }
+    h1{
+        color: white;
+    }
+    img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%; 
+        margin-top: 35%;
+        margin-left: 25%;
+    }
+
+    h2{
+        text-align: center;
+        color: blue;
+    }
+
+    h4{
+        text-align: center;
+        color: white;
+    }
+
+    p{
+        text-align: center;
+        color: white;
+    }
+
+    /* Estilos para o cabeçalho */
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000; /* Garante que o cabeçalho esteja acima de outros elementos */
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 20px;
+    }
+
+    header nav a {
+        color: #fff;
+        text-decoration: none;
+        margin-right: 20px;
+        margin-left: 8%;
+    }
+    
+    /* Estilos para as seções de conteúdo */
+    section {
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.7);
+        margin: 20px;
+        border-radius: 10px;
+    }
+
+    footer {
+        position: fixed; 
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        background-color: gray;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    footer a {
+        padding: 5px 10px;
+        font-size: 14px;
+        color: white;
+    }
+}
+
+
